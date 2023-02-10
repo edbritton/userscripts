@@ -5,8 +5,10 @@
 // @match       https://*prusa*.com/*
 // ==/UserScript==
 
+// Should work forever
 var metaThemeColor = document.querySelector("meta[name=theme-color]");
 metaThemeColor.setAttribute("content", "#fa6831");
 
+// Might break in the future
 var root = document.getElementsByTagName('html')[0];
 window.matchMedia("(prefers-color-scheme: dark)").matches ? root.classList.add("theme-dark") : root.classList.remove("theme-dark");
