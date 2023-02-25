@@ -1,0 +1,20 @@
+baseurl: "/userscripts"
+url: "https://edbritton.github.io"
+repository: edbritton/userscripts
+remote_theme: pmarsceill/just-the-docs
+color_scheme: dark
+aux_links:
+  "View on GitHub":
+    - "https://github.com/edbritton/userscripts"
+  "My Projects":
+    - "/repos"
+  "My Website":
+    - "/"
+search_enabled: false
+markdown: GFM
+plugins:
+  - jekyll-default-layout
+  - jekyll-github-metadata
+  - jekyll-mentions
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
