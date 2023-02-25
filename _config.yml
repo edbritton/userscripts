@@ -1,11 +1,12 @@
+title: Ed’s Userscripts
 baseurl: "/userscripts"
 url: "https://edbritton.github.io"
 repository: edbritton/userscripts
 remote_theme: pmarsceill/just-the-docs
 color_scheme: dark
 aux_links:
-  "View on GitHub":
-    - "https://github.com/edbritton/userscripts"
+  "View the collection":
+    - "https://github.com/edbritton/userscripts/tree/main/scripts"
   "My Projects":
     - "/repos"
   "My Website":
