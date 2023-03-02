@@ -6,16 +6,13 @@
 // @match       https://prusament.com/*
 // ==/UserScript==
 
+// Should work forever
 const prusaOrange = "#fa6831",
-	  galaxyBlack = "#454447";
+      galaxyBlack = "#454447";
 
-let metaThemeColors = document.querySelectorAll("meta[name=theme-color]"),
-	lightMeta = document.createElement("meta"),
-	defaultMeta = document.createElement("meta");
+let lightMeta = document.createElement("meta"), defaultMeta = document.createElement("meta");
 
-for (existing of metaThemeColors) {
-	existing.remove();
-}
+document.querySelectorAll("meta[name=theme-color]").forEach((element) => element.remove());
 
 lightMeta.name = defaultMeta.name = "theme-color";
 lightMeta.setAttribute("media", "(prefers-color-scheme:light)");
@@ -25,7 +22,6 @@ defaultMeta.content = galaxyBlack;
 
 document.getElementsByTagName("head")[0].append(lightMeta, defaultMeta);
 
+// May break in the future
 let root = document.getElementsByTagName("html")[0];
-window.matchMedia("(prefers-color-scheme: light)").matches
-	? root.classList.remove("theme-dark")
-	: root.classList.add("theme-dark");
+window.matchMedia("(prefers-color-scheme: light)").matches ? root.classList.remove("theme-dark") : root.classList.add("theme-dark");
