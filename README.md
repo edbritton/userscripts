@@ -4,8 +4,8 @@ These are some Userscripts I find useful.
 ## Where to use them
 On Mac, iPhone, and iPad the Safari extension by [@quoid](https://github.com/quoid) is maybe the best option. It can sync across the cloud and give you a consistent experience, plus you don't need to use some other smelly browser.
 
-→ [github.com/quoid/userscripts](https://github.com/quoid/userscripts)  
-→ https://itunes.apple.com/app/userscripts/id1463298887
+→ https://appstore.com/justinwasack/userscripts  
+→ [quoid/userscripts](https://github.com/quoid/userscripts)
 
 *Other Userscript implimentations exist, and these should work in them, but may require modification of the header section.*
 
