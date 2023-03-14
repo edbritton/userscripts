@@ -5,12 +5,12 @@ These are some Userscripts I find useful.
 On Mac, iPhone, and iPad the Safari extension by [@quoid](https://github.com/quoid) is maybe the best option. It can sync across the cloud and give you a consistent experience, plus you don't need to use some other smelly browser.
 
 → [github.com/quoid/userscripts](https://github.com/quoid/userscripts)  
-→ https://itunes.apple.com/us/app/userscripts/id1463298887
+→ https://itunes.apple.com/app/userscripts/id1463298887
 
 *Other Userscript implimentations exist, and these should work in them, but may require modification of the header section.*
 
 
-## Why to use them
+## Why use them
 If you're wondering this, maybe your experience of the internet has been pretty smooth, but sometimes a website will use a font or colour which doesn't quite meet your needs.
 
 Maybe the website has a dark theme but doesn't trigger it automatically,  
