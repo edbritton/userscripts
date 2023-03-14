@@ -4,6 +4,8 @@
 // @match       https://www.printables.com/*
 // @match       https://www.prusa3d.com/*
 // @match       https://prusament.com/*
+// @version     1.0.2
+// @updateURL   https://raw.githubusercontent.com/edbritton/userscripts/main/scripts/Prusa%20themes.js
 // ==/UserScript==
 
 // Should work forever
