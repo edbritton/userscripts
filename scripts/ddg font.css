@@ -1,0 +1,8 @@
+/* ==UserStyle==
+@name        DuckDuckGo font
+@description I know you can change the font on the site, but then it breaks auto-darkmode
+@match       https://duckduckgo.com/*
+@match       https://*.duckduckgo.com/*
+==/UserStyle== */
+
+* { font-family: ui-sans-serif, sans-serif !important }
