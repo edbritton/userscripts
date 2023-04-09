@@ -2,7 +2,7 @@ title: Ed’s Userscripts
 baseurl: "/userscripts"
 url: "https://edbritton.github.io"
 repository: edbritton/userscripts
-remote_theme: pmarsceill/just-the-docs
+remote_theme: edbritton/edbritton.github.io
 color_scheme: gmi
 aux_links:
   "GitHub":
