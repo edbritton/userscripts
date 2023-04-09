@@ -15,7 +15,9 @@ search_enabled: false
 markdown: GFM
 plugins:
   - jekyll-default-layout
+  - jekyll-feed
   - jekyll-github-metadata
   - jekyll-mentions
-  - jekyll-readme-index
-  - jekyll-titles-from-headings
+  - jekyll-octicons
+  - jekyll-redirect-from
+  - jekyll-seo-tag
