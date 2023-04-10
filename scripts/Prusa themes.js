@@ -2,9 +2,9 @@
 // @name        Prusa themes
 // @description Auto dark theme. Sets Prusa sites titlebar to Prusa orange.
 // @match       https://www.printables.com/*
-// @match       https://www.prusa3d.com/*
+// @match       https://*.prusa3d.com/*
 // @match       https://prusament.com/*
-// @version     1.1.0
+// @version     1.1.1
 // @updateURL   https://raw.githubusercontent.com/edbritton/userscripts/main/scripts/Prusa%20themes.js
 // ==/UserScript==
 
