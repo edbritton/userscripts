@@ -5,4 +5,8 @@
 @match       https://*.duckduckgo.com/*
 ==/UserStyle== */
 
-* { font-family: ui-sans-serif, sans-serif !important }
+* { font-family: ui-sans-serif, sans-serif }
+
+pre, code { font-family: ui-monospace, menlo, monospace !important }
+
+.header__button--menu, .module__toggle__chevron { font-family: ddg-serp-icons !important }
