@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name         Home Assistnt Fira Code
+@description  Use Fira Code font in Home Assistnt's YAML editor.
+@match        *://*:8123/*
+@version      1.0.0
+==/UserStyle== */
+
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css);
+
+div > div.cm-scroller.ha-scrollbar {
+  font-family: 'Fira Code', ui-monospace !important
+}
+
+:root {
+  --ha-font-family-code: 'Fira Code', ui-monospace !important;
+}

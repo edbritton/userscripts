@@ -2,6 +2,7 @@ My collection of Userscripts
 ============================
 These are some Userscripts I find useful.
 
+
 Where to use them
 -----------------
 On Mac, iPhone, and iPad the Safari extension by @quoid is maybe the best option. It can sync across the cloud and give you a consistent experience, plus you don't need to use some other smelly browser.
@@ -40,8 +41,10 @@ I'll try to add comments in the codes to let less experienced coders know the we
 | [DuckDuckGo font]           | Set DuckDuckGo font without breaking auto-darkmode.          |  CSS |
 | [Make WebApp]               | Forces a page to save to home screen as a WebApp, poorly.    |  JS  |
 | [Prusa themes]              | Activates the site's dark theme on systems light/dark mode.  |  JS  |
+| [Home Assistant Fira Code]  | Use Fira Code font in Home Assistnt's YAML editor.           |  CSS |
 
-[Dark title bar for movies]: scripts/Dark%20title%20bar%20for%20movies.js
-[DuckDuckGo font]: scripts/ddg%20font.css
-[Make WebApp]: scripts/Make%20WebApp.js
-[Prusa themes]: scripts/Prusa%20themes.js
+[Dark title bar for movies]: scripts/dark-title-bar-for-movies.js
+[DuckDuckGo font]: scripts/ddg-font.css
+[Make WebApp]: scripts/Make-WebApp.js
+[Prusa themes]: scripts/Prusa-themes.js
+[Home Assistant Fira Code]: scripts/homeassistant.user.css
