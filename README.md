@@ -40,7 +40,7 @@ I'll try to add comments in the codes to let less experienced coders know the we
 | [Dark title bar for movies] | Makes the Safari title bar black. Add and remove your own sites to the match lists. |  JS  |
 | [DuckDuckGo bottom navbar] | Bottom buttons for navigation when in portrait |  CSS  |
 | [DuckDuckGo font] | I know you can change the font on the site, but then it breaks auto-darkmode |  CSS  |
-| [Home Assistnt Fira Code] | Use Fira Code font in Home Assistant's YAML editor. |  CSS  |
+| [Home Assistant Fira Code] | Use Fira Code font in Home Assistant's YAML editor. |  CSS  |
 | [Make WebApp] | Bookmark a normal site like a PWA on iOS. |  JS  |
 | [Prusa themes] | Auto dark theme. Sets Prusa sites titlebar to Prusa orange. |  JS  |
 | [Smartlink banners] | Add smartlink banners if possible. |  JS  |
@@ -48,7 +48,7 @@ I'll try to add comments in the codes to let less experienced coders know the we
 [Dark title bar for movies]: scripts/dark-title-bar-for-movies.user.js
 [DuckDuckGo bottom navbar]: scripts/ddg-bottom-nav.user.css
 [DuckDuckGo font]: scripts/ddg-font.user.css
-[Home Assistnt Fira Code]: scripts/homeassistant.user.css
+[Home Assistant Fira Code]: scripts/homeassistant.user.css
 [Make WebApp]: scripts/make-webapp.user.js
 [Prusa themes]: scripts/prusa-themes.user.js
 [Smartlink banners]: scripts/smartlinks.user.js
