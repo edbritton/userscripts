@@ -43,7 +43,9 @@ I'll try to add comments in the codes to let less experienced coders know the we
 | [Home Assistant Fira Code] | Use Fira Code font in Home Assistant's YAML editor. |  CSS  |
 | [Make WebApp] | Bookmark a normal site like a PWA on iOS. |  JS  |
 | [Prusa themes] | Auto dark theme. Sets Prusa sites titlebar to Prusa orange. |  JS  |
+| [Search boxes] | Fix sites without proper search markup. |  JS  |
 | [Smartlink banners] | Add smartlink banners if possible. |  JS  |
+| [Wiki system fonts] | Use the nicer default UI fonts. |  CSS  |
 
 [Dark title bar for movies]: scripts/dark-title-bar-for-movies.user.js
 [DuckDuckGo bottom navbar]: scripts/ddg-bottom-nav.user.css
@@ -51,4 +53,6 @@ I'll try to add comments in the codes to let less experienced coders know the we
 [Home Assistant Fira Code]: scripts/homeassistant.user.css
 [Make WebApp]: scripts/make-webapp.user.js
 [Prusa themes]: scripts/prusa-themes.user.js
+[Search boxes]: scripts/search-box.user.js
 [Smartlink banners]: scripts/smartlinks.user.js
+[Wiki system fonts]: scripts/wiki.user.css
