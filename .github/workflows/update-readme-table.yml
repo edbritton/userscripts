@@ -1,0 +1,25 @@
+name: Update README table
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate table from script metadata
+        run: python3 .github/scripts/generate_table.py
+      - name: Commit updated README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "Update README table from scripts [skip ci]"
+          git push
