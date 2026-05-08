@@ -1,0 +1,27 @@
+/* ==UserStyle==
+@name        Wiki system fonts
+@description Use the nicer default UI fonts.
+@match       https://*.wikipedia.org/*
+==/UserStyle== */
+
+body {
+  font-family: ui-sans-serif, sans-serif !important;
+}
+
+.pre-content h1,
+em,
+i,
+cite {
+  font-family: ui-serif, serif !important;
+}
+
+pre, code, tt, kbd, samp, .mw-code {
+  font-family: ui-monospace, monospace !important;
+}
+
+.mw-heading1,
+h1,
+.mw-heading2,
+h2 {
+  font-family: ui-serif, serif !important;
+}
