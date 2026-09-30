@@ -5,6 +5,10 @@
 @match       https://*.duckduckgo.com/*
 ==/UserStyle== */
 
+[data-testid="floating-feedback-prompt"] {
+  display: none;
+}
+
 :root,
 * {
   color-scheme: dark light !important;
@@ -49,7 +53,7 @@ i {
     border-top-width: thin;
     border-top-style: solid;
     bottom: 0px;
-    padding: 10px 0 0 0;
+    padding: 0 0 10px 0;
     position: fixed;
     margin: 0px !important;
     width: 100vw !important;
