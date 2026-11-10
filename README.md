@@ -43,7 +43,7 @@ I'll try to add comments in the codes to let less experienced coders know the we
 | [Home Assistant Fira Code] | Use Fira Code font in Home Assistant's YAML editor. |  CSS  |
 | [Make WebApp] | Bookmark a normal site like a PWA on iOS. |  JS  |
 | [Prusa themes] | Auto dark theme. Sets Prusa sites titlebar to Prusa orange. |  JS  |
-| [Search boxes] | Fix sites without proper search markup. |  JS  |
+| [Search boxes] | Tries to make all search boxes behave themselves, and adds a "/" hotkey. |  JS  |
 | [Smartlink banners] | Add smartlink banners if possible. |  JS  |
 | [Wiki system fonts] | Use the nicer default UI fonts. |  CSS  |
 
