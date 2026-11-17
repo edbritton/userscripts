@@ -2,6 +2,9 @@ My collection of Userscripts
 ============================
 These are some Userscripts I find useful.
 
+> [!NOTE]
+> Most of them are little scripts I've cobbled together for my own purposes, but if I found someone else's script before making one, then it'll be in this repo too and the header will show that.
+
 
 Where to use them
 -----------------
@@ -30,8 +33,6 @@ When they will break
 Because these scripts manipulate how other people's websites look and behave, when those people change their websites, stuff can break. Sorry, that's just the way it works.
 
 Some of the Userscripts will work until WebKit, HTML, or CSS is changed -- so are likely to live much much longer.
-
-I'll try to add comments in the codes to let less experienced coders know the weak points.
 
 ---
 
