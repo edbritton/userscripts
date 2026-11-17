@@ -48,7 +48,9 @@ Some of the Userscripts will work until WebKit, HTML, or CSS is changed -- so ar
 | [Prusa themes] | Auto dark theme. Sets Prusa sites titlebar to Prusa orange. |  JS  |
 | [Search boxes] | Tries to make all search boxes behave themselves, and adds a "/" hotkey. |  JS  |
 | [Smartlink banners] | Add smartlink banners if possible. |  JS  |
+| [Video fill toggle] | Auto-fill fullscreen videos (like iPhone pinch). Press 'z' or click floating button to toggle fill/contain. |  JS  |
 | [Wiki system fonts] | Use the nicer default UI fonts. |  CSS  |
+| [YouTube window mini player] | Hide top bar, and fill video to window when playing. Perfect for putting videos in a corner of the screen. |  JS  |
 
 [Dark title bar for movies]: scripts/dark-title-bar-for-movies.user.js
 [DuckDuckGo bottom navbar]: scripts/ddg-bottom-nav.user.css
@@ -60,4 +62,6 @@ Some of the Userscripts will work until WebKit, HTML, or CSS is changed -- so ar
 [Prusa themes]: scripts/prusa-themes.user.js
 [Search boxes]: scripts/search-box.user.js
 [Smartlink banners]: scripts/smartlinks.user.js
+[Video fill toggle]: scripts/video-fill-toggle.user.js
 [Wiki system fonts]: scripts/wiki.user.css
+[YouTube window mini player]: scripts/yt-window-mini-player.user.js
