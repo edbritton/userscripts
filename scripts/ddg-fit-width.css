@@ -1,0 +1,36 @@
+/* ==UserStyle==
+@name        DuckDuckGo fit page width
+@description Keep DuckDuckGo results contained within the page bounds.
+@match       https://duckduckgo.com/*
+@match       https://*.duckduckgo.com/*
+==/UserStyle== */
+
+html.is-not-mobile-device,
+html.is-link-style-exp.is-not-mobile-device,
+html.is-not-mobile-device body,
+html.is-not-mobile-device .site-wrapper,
+html.is-not-mobile-device #links_wrapper,
+html.is-link-style-exp.is-not-mobile-device #links_wrapper,
+html.is-not-mobile-device .serp__results {
+  min-width: 0 !important;
+}
+
+html,
+body {
+  max-width: 100% !important;
+  overflow-x: clip !important;
+}
+
+html {
+  --max-content-width: 900px !important;
+}
+
+.results--main,
+.zci__main.has-aux,
+.zci__main--answer,
+.zcm-wrap--header,
+.set-wide .results--main,
+.set-super-wide .results--main {
+  max-width: min(900px, 100%) !important;
+  margin-inline: auto !important;
+}
