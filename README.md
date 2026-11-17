@@ -40,6 +40,7 @@ Some of the Userscripts will work until WebKit, HTML, or CSS is changed -- so ar
 |-----------------------------|--------------------------------------------------------------|:----:|
 | [Dark title bar for movies] | Makes the Safari title bar black. Add and remove your own sites to the match lists. |  JS  |
 | [DuckDuckGo bottom navbar] | Bottom buttons for navigation when in portrait |  CSS  |
+| [DuckDuckGo fit page width] | Keep DuckDuckGo results contained within the page bounds. |  CSS  |
 | [DuckDuckGo font] | I know you can change the font on the site, but then it breaks auto-darkmode |  CSS  |
 | [YouTube Hide Shorts] | Hide Shorts navigation, search filters, and shelves on YouTube in multiple languages |  JS  |
 | [Home Assistant Fira Code] | Use Fira Code font in Home Assistant's YAML editor. |  CSS  |
@@ -51,6 +52,7 @@ Some of the Userscripts will work until WebKit, HTML, or CSS is changed -- so ar
 
 [Dark title bar for movies]: scripts/dark-title-bar-for-movies.user.js
 [DuckDuckGo bottom navbar]: scripts/ddg-bottom-nav.user.css
+[DuckDuckGo fit page width]: scripts/ddg-fit-width.user.css
 [DuckDuckGo font]: scripts/ddg-font.user.css
 [YouTube Hide Shorts]: scripts/hide-shorts.user.js
 [Home Assistant Fira Code]: scripts/homeassistant-fira-code.user.css
