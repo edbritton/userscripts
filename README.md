@@ -41,6 +41,7 @@ Some of the Userscripts will work until WebKit, HTML, or CSS is changed -- so ar
 | [Dark title bar for movies] | Makes the Safari title bar black. Add and remove your own sites to the match lists. |  JS  |
 | [DuckDuckGo bottom navbar] | Bottom buttons for navigation when in portrait |  CSS  |
 | [DuckDuckGo font] | I know you can change the font on the site, but then it breaks auto-darkmode |  CSS  |
+| [YouTube Hide Shorts] | Hide Shorts navigation, search filters, and shelves on YouTube in multiple languages |  JS  |
 | [Home Assistant Fira Code] | Use Fira Code font in Home Assistant's YAML editor. |  CSS  |
 | [Make WebApp] | Bookmark a normal site like a PWA on iOS. |  JS  |
 | [Prusa themes] | Auto dark theme. Sets Prusa sites titlebar to Prusa orange. |  JS  |
@@ -51,7 +52,8 @@ Some of the Userscripts will work until WebKit, HTML, or CSS is changed -- so ar
 [Dark title bar for movies]: scripts/dark-title-bar-for-movies.user.js
 [DuckDuckGo bottom navbar]: scripts/ddg-bottom-nav.user.css
 [DuckDuckGo font]: scripts/ddg-font.user.css
-[Home Assistant Fira Code]: scripts/homeassistant.user.css
+[YouTube Hide Shorts]: scripts/hide-shorts.user.js
+[Home Assistant Fira Code]: scripts/homeassistant-fira-code.user.css
 [Make WebApp]: scripts/make-webapp.user.js
 [Prusa themes]: scripts/prusa-themes.user.js
 [Search boxes]: scripts/search-box.user.js
